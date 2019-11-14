@@ -1,0 +1,16 @@
+body{
+	background-color: navy;
+}
+
+h1{
+	color: white;
+}
+
+.indented{
+	margin-left: 15vw;
+	text-align: left;
+	border-style: solid;
+	width: 25vw;
+	padding-left: 2em;
+	background-color: white;
+}

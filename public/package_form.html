@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+
+  	<title>Package Form</title>
+  	<meta name="Description" content="Your Package Info">
+  	<meta name="Victoria Mears" content="Going postal">
+	<link href="/postal.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <h1>Going Postal</h1>
+	<hr>
+    <form class="indented" action="/get_price" method="get">
+		<h3>Enter Item Info:</h3>
+        Item Type:<br><select name="type">
+            <option value="stamped_letter">Letters (Stamped)</option>
+            <option value="metered_letter">Letters (Metered)</option>
+            <option value="envelope">Large Envelopes (Flats)</option>
+            <option value="package">First-Class Package Service—Retail</option>
+        </select>
+		<br><br>
+		Item Weight in oz:<br><input name="weight" type="text" required>
+		<br><br>
+        <input type=submit>
+		<br><br>
+    </form>
+  
+</body>
+</html>

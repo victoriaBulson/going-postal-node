@@ -1,0 +1,23 @@
+{
+  "name": "going-postal-node",
+  "version": "1.0.0",
+  "description": "An app that takes the weight and mail type and displays the packaging price",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriaBulson/going-postal-node.git"
+  },
+  "author": "Victoria Mears",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriaBulson/going-postal-node/issues"
+  },
+  "homepage": "https://github.com/victoriaBulson/going-postal-node#readme",
+  "dependencies": {
+    "ejs": "^2.7.2",
+    "express": "^4.17.1"
+  }
+}

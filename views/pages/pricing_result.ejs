@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+
+  	<title>Pricing Result</title>
+	<meta name="Description" content="Pricing Result">
+  	<meta name="Victoria Mears" content="Going Postal">
+	<link href="/postal.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+	<h1>Going Postal</h1>
+	<hr>
+	<div class="indented">
+		
+	<h3>Item Details:</h3>
+	<p>Type: <%= type %></p>
+    <p>Weight: <%= weight %></p>
+	<p>Price: <%= price %></p>
+	<form action="/package_form.html" method="get">
+		<button type="submit">
+			Price Another Item
+		</button>
+	</form>
+		
+	</div>
+</body>
+</html>
