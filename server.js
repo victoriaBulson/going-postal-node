@@ -133,6 +133,6 @@ function calculate_package_rate(weight){
 
 
 //Listening 
-app.listen(5000, function() {
+app.listen(port, function() {
     console.log('the server is listening');
 });
