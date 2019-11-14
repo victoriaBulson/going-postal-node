@@ -4,6 +4,9 @@ var express = require("express");
 //create an app that is an express object
 var app = express();
 
+//set port for heroku or local use
+const port = process.env.PORT || 5000;
+
 //Static files: don't change dynamically based on server.
 //Use: allows the server to access these files.
 app.use(express.static("public"));
